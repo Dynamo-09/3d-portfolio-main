@@ -35,6 +35,33 @@ const Navbar = () => {
         }
       });
     });
+
+    const setActive = (section: string) => {
+      document.querySelectorAll(".header ul a").forEach((a) => a.classList.remove("active"));
+      if (section) {
+        const link = document.querySelector(`.header ul a[data-href="#${section}"]`);
+        if (link) link.classList.add("active");
+      }
+    };
+
+    const sections = ["about", "work", "contact"];
+    sections.forEach((section) => {
+      ScrollTrigger.create({
+        trigger: `#${section}`,
+        start: "top 70%",
+        end: "bottom 70%",
+        onEnter: () => setActive(section),
+        onEnterBack: () => setActive(section),
+      });
+    });
+
+    // Clear active state when scrolling all the way back up past the first section
+    ScrollTrigger.create({
+      trigger: `#about`,
+      start: "top 70%",
+      onLeaveBack: () => setActive(""),
+    });
+
     window.addEventListener("resize", () => {
       ScrollSmoother.refresh(true);
     });

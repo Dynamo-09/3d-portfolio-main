@@ -17,12 +17,12 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-info">
             <h3 style={{ fontSize: "26px", whiteSpace: "nowrap", marginBottom: "5px" }}>Co-founder of Graphicsporium</h3>
             <h2 className="landing-info-h2">
-              <div className="landing-h2-1" style={{ fontSize: "32px" }}>DATA ANALYST</div>
-              <div className="landing-h2-2" style={{ fontSize: "32px", color: "#eae5ec" }}>& FULL STACK DEVELOPER</div>
+              <div className="landing-h2-1">DATA ANALYST</div>
+              <div className="landing-h2-2">FULL STACK DEVELOPER</div>
             </h2>
             <h2>
-              <div className="landing-h2-info" style={{ fontSize: "32px", color: "#eae5ec" }}>& FULL STACK DEVELOPER</div>
-              <div className="landing-h2-info-1" style={{ fontSize: "32px" }}>DATA ANALYST</div>
+              <div className="landing-h2-info" style={{ color: "#eae5ec" }}>& FULL STACK DEVELOPER</div>
+              <div className="landing-h2-info-1" style={{ color: "#eae5ec" }}>& DATA ANALYST</div>
             </h2>
           </div>
         </div>

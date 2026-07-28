@@ -84,7 +84,9 @@ const CharacterModel = () => {
             width: "100%", 
             height: "100%", 
             objectFit: "contain", 
-            position: "relative"
+            position: "relative",
+            transform: "scale(0.85)",
+            transformOrigin: "bottom center"
           }} 
         />
       </div>
