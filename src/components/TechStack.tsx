@@ -26,8 +26,11 @@ const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
+const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+const scaleMultiplier = isMobile ? 0.65 : 1;
+
 const spheres = [...Array(30)].map(() => ({
-  scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
+  scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)] * scaleMultiplier,
 }));
 
 type SphereProps = {
