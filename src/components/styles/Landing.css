@@ -205,7 +205,7 @@
 }
 
 .landing-info h3 {
-  font-size: 22px;
+  font-size: 14px;
   letter-spacing: 2px;
   font-weight: 300;
   color: var(--accentColor);
@@ -217,7 +217,7 @@
   margin-top: -20px;
   margin-left: 20px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 24px;
   position: relative;
   display: flex;
@@ -245,7 +245,7 @@
 
 h2.landing-info-h2 {
   color: #14b8a6;
-  font-size: 22px;
+  font-size: 15px;
   margin: 0;
   font-weight: 600;
   position: relative;
@@ -317,7 +317,7 @@ h2.landing-info-h2 {
   }
 
   .landing-info h3 {
-    font-size: 25px;
+    font-size: 26px;
   }
 
   .landing-info h2 {
@@ -391,7 +391,7 @@ h2.landing-info-h2 {
   }
 
   .landing-info h3 {
-    font-size: 35px;
+    font-size: 26px;
   }
 
   .landing-info h2 {
