@@ -21,10 +21,11 @@ const Contact = () => {
             </p>
             <h4>Education</h4>
             <p>
-              MSc in CSE(DS) ,Indian Institute Of Technology Patna
+            MS in Computer Science & Data Analytics ,Indian Institute Of Technology Patna 
+              (PURSUING)
             </p>
             <p>
-              B.Tech in CSE , Institute Of Engineering and Management
+              B.Tech in CSE , University Of Engineering and Management
             </p>
           </div>
           <div className="contact-box">
