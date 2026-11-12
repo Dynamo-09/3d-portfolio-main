@@ -21,7 +21,7 @@ const Contact = () => {
             </p>
             <h4>Education</h4>
             <p>
-            MS in Computer Science & Data Analytics ,Indian Institute Of Technology Patna 
+              MS in Computer Science & Data Analytics ,Indian Institute Of Technology Patna 
               (PURSUING)
             </p>
             <p>

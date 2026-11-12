@@ -6,10 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-        Data Analyst and Computer Science graduate with hands-on experience in Python, SQL, Power BI, Tableau, Exploratory Data Analysis (EDA), Data
+         Data Analyst and Computer Science graduate with hands-on experience in Python, SQL, Power BI, Tableau, Exploratory Data Analysis (EDA), Data
 cleaning, ETL, Data pipelines, Business Intelligence, and data visualization. Experienced in transforming raw and unstructured data into analysisready datasets, optimizing SQL queries, building interactive dashboards, tracking KPIs, and communicating trends through business-focused insights.
 Strong foundation in Machine Learning with Scikit-learn and TensorFlow, with additional experience in MySQL, AWS, FastAPI, and React.js.
-
+        </p>
         <div style={{ marginTop: "30px" }}>
           <h4 style={{ color: "var(--accentColor)", fontSize: "24px", marginBottom: "15px" }}>AI Tools Known</h4>
           <p className="para" style={{ fontSize: "18px" }}>
